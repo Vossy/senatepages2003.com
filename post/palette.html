@@ -1,0 +1,150 @@
+<!--
+KOIVI TTW WYSIWYG Editor Copyright (C) 2004 Justin Koivisto
+Version 2.0
+Last Modified: 12/9/2004
+
+    This library is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation; either version 2.1 of the License, or (at
+    your option) any later version.
+
+    This library is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+    License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with this library; if not, write to the Free Software Foundation,
+    Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+
+    Full license agreement notice can be found in the LICENSE file contained
+    within this distribution package.
+
+    Justin Koivisto
+    justin.koivisto@gmail.com
+    http://www.koivi.com
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>Color Palete</title>
+  <script language="JavaScript" type="text/javascript">
+   <!--
+    function selectColor(color){
+        self.parent.SetColor(color);
+    }
+    function InitColorPalette(){
+    	if (document.getElementsByTagName)
+    		var x = document.getElementsByTagName('TD');
+    	else if (document.all)
+    		var x = document.all.tags('TD');
+    	for (var i=0;i<x.length;i++){
+    		x[i].onclick = click;
+    	}
+    }
+    function click(){
+        str=this.id;
+        color=str.replace('c','#');
+        selectColor(color);
+    }
+   -->
+  </script>
+  <style type="text/css">
+   <!--
+    html,body{margin: 0px; padding: 0px;}
+    td{border: black none 2px;}
+    td:hover{border: white solid 2px;}
+   -->
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ </head>
+
+ <body bgcolor="white" onLoad="InitColorPalette()">
+  <table border="0" cellpadding="0" cellspacing="2">
+   <tr>
+    <td id="cFFFFFF" bgcolor="#FFFFFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCCCC" bgcolor="#FFCCCC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCC99" bgcolor="#FFCC99" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFFF99" bgcolor="#FFFF99" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFFFCC" bgcolor="#FFFFCC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c99FF99" bgcolor="#99FF99" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c99FFFF" bgcolor="#99FFFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCCFFFF" bgcolor="#CCFFFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCCCCFF" bgcolor="#CCCCFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCCFF" bgcolor="#FFCCFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="cCCCCCC" bgcolor="#CCCCCC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF6666" bgcolor="#FF6666" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF9966" bgcolor="#FF9966" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFFF66" bgcolor="#FFFF66" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFFF33" bgcolor="#FFFF33" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c66FF99" bgcolor="#66FF99" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c33FFFF" bgcolor="#33FFFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c66FFFF" bgcolor="#66FFFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c9999FF" bgcolor="#9999FF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF99FF" bgcolor="#FF99FF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="cC0C0C0" bgcolor="#C0C0C0" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF0000" bgcolor="#FF0000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF9900" bgcolor="#FF9900" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCC66" bgcolor="#FFCC66" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFFF00" bgcolor="#FFFF00" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c33FF33" bgcolor="#33FF33" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c66CCCC" bgcolor="#66CCCC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c33CCFF" bgcolor="#33CCFF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c6666CC" bgcolor="#6666CC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCC66CC" bgcolor="#CC66CC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="c999999" bgcolor="#999999" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCC0000" bgcolor="#CC0000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFF6600" bgcolor="#FF6600" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCC33" bgcolor="#FFCC33" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cFFCC00" bgcolor="#FFCC00" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c33CC00" bgcolor="#33CC00" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c00CCCC" bgcolor="#00CCCC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c3366FF" bgcolor="#3366FF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c6633FF" bgcolor="#6633FF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCC33CC" bgcolor="#CC33CC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="c666666" bgcolor="#666666" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c990000" bgcolor="#990000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCC6600" bgcolor="#CC6600" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="cCC9933" bgcolor="#CC9933" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c999900" bgcolor="#999900" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c009900" bgcolor="#009900" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c339999" bgcolor="#339999" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c3333FF" bgcolor="#3333FF" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c6600CC" bgcolor="#6600CC" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c993399" bgcolor="#993399" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="c333333" bgcolor="#333333" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c660000" bgcolor="#660000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c993300" bgcolor="#993300" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c996633" bgcolor="#996633" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c666600" bgcolor="#666600" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c006600" bgcolor="#006600" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c336666" bgcolor="#336666" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c000099" bgcolor="#000099" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c333399" bgcolor="#333399" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c663366" bgcolor="#663366" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+   <tr>
+    <td id="c000000" bgcolor="#000000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c330000" bgcolor="#330000" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c663300" bgcolor="#663300" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c663333" bgcolor="#663333" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c333300" bgcolor="#333300" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c003300" bgcolor="#003300" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c003333" bgcolor="#003333" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c000066" bgcolor="#000066" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c330099" bgcolor="#330099" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+    <td id="c330033" bgcolor="#330033" width="15" height="15"><img width="1" height="1" alt="" src=""></td>
+   </tr>
+  </table>
+ </body>
+</html>

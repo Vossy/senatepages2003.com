@@ -1,0 +1,172 @@
+body {
+	background-color: #ffffff;
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+/*
+STRUCTURE
+*/
+
+div#TopLevel {
+	width: 700px;
+	margin: 10px auto;
+}
+
+div#Header {
+	width: 700px;
+	height: 115px;
+	background-image: url("/images/color-logo.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #33f;
+	color: white;
+	padding-bottom: 3px;
+}
+
+span#PageName {
+	float: left;
+	margin: 3px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+span#LoginName {
+	float: right;
+	margin: 3px;
+	margin-top: 100px;
+}
+
+div#Navigation {
+	/* text-align: left; */
+	width: 150px;
+	padding: 0px;
+}
+
+div#Content {
+	width: 490px;
+	float: right;
+	text-align: left;
+	padding: 5px;
+}
+
+div.Post {
+	font-size: small;
+	margin-bottom: 2em;
+}
+
+div#Footer {
+	clear: both;
+	text-align: center;
+	font-size: x-small;
+}
+
+/*
+FONTS
+*/
+
+span#PageName, span#LoginName {
+	font-size: small;
+}
+
+span.SearchKeyword {
+background-color: yellow;
+}
+
+h1 {
+font-size: large;
+margin: 0px;
+}
+
+h3.PostTitle {
+	font-size: large;
+	margin: 0px;
+	padding: 3px;
+}
+
+p.PostInfo {
+	margin: 0px;
+	padding: 2px;
+	font-size: x-small;
+	color: #aaf;
+}
+
+/*
+HYPERLINK STYLES
+*/
+
+a:link {
+   color: #aaaaff;
+   text-decoration: none
+}
+
+a:visited {
+   color: #aaaaff;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #0000ff;
+   text-decoration: underline;
+}
+
+b a:link {
+   color: #000;
+   text-decoration: none
+}
+
+b a:visited {
+   color: #555;
+   text-decoration: none;
+}
+
+b a:hover {
+   color: #0000ff;
+   text-decoration: underline;
+}
+
+a.PostLink:link, a.PostLink:visited {
+	color: #000;
+	text-decoration: none
+}
+
+a.PostLink:hover {
+	color: #4a83ff;
+	border-bottom: 1px dashed #4a83ff;
+}
+
+/*
+MISC
+*/
+
+p.Contact {
+	margin: 2px;
+}
+
+div#Header h1 {
+	display: none;
+}
+
+hr.PostSeparator {
+	display: none;
+}
+
+#CollegeTicker {
+	width: 480px;
+	background-image: url(/images/ticker.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+#CollegeTicker td#TickerName {
+	width: 200px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+#CollegeTicker td#TickerCollege {
+	width: 280px;
+	padding-left: 15px;
+}
+
+

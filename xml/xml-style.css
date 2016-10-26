@@ -1,0 +1,47 @@
+rss {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+channel {
+	text-align: left;
+	width: 600px;
+}
+
+channel > title {
+	display: block;
+	font-size: large;
+	font-weight: bold;
+}
+
+channel > link, channel > language {
+	display: none;
+}
+
+item {
+	margin-bottom: 15px;
+}
+
+item > title {
+	display: block;
+	font-size: medium;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+
+item > author {
+	font-size: small;
+	color: #777;
+	display: block;
+	text-align: right;
+}
+
+item > link {
+	display: none;
+}
+
+item > pubDate {
+	display: block;
+	color: #06c;
+}
+

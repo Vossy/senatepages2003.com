@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^login /account/loginproc.php
+RewriteRule ^logout /account/logout.php
+
+RewriteRule ^contact/([0-9]+)/photos/ /contact/photos.php?page=$1 [L]
+RewriteRule ^contact/([0-9]+) /contact/page.php?page=$1
+RewriteRule ^contact/edit$ /contact/edit/ [R]
+RewriteRule ^contact/edit/$ /contact/edit.php
+RewriteRule ^contact/edit/submit$ /contact/edit/submit/  [R]
+RewriteRule ^contact/edit/submit/$ /contact/submit.php
+
+RewriteRule ^PostID/([0-9]+) /get-post.php?id=$1
+
+RewriteRule ^Recent/([0-9]+) /index.php?recent=$1
+
+RewriteRule ^add-post /post/add-new.php
+
+RewriteRule ^pictures/view/([0-9]+)$ /pictures/view/$1/ [R]
+RewriteRule ^pictures/view/([0-9]+)/$ /pictures/view.php?id=$1
+RewriteRule ^pictures/tag/([0-9]+)$ /pictures/tag/$1/ [R]
+RewriteRule ^pictures/tag/([0-9]+)/$ /pictures/tag.php?id=$1
+
+RewriteRule ^account$ /account/ [R]
+RewriteRule ^account/$ /account/myaccount.php
+
+RewriteRule ^xml/index.rss$ /xml/rss2.php
+
+RewriteRule ^include/ticker.js /include/ticker.php
